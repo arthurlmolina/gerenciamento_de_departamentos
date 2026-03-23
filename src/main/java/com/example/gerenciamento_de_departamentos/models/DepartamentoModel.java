@@ -13,5 +13,5 @@ public class DepartamentoModel {
     private String nome;
     @Column(name = "localizacaoDepartamento")
     private String localizacao;
-    
+
 }
