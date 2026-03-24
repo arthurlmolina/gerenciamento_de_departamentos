@@ -12,7 +12,7 @@ import java.util.Optional;
 public class DepartamentoService {
 
     @Autowired
-    DepartamentoRepository departamentoRepository;
+    private DepartamentoRepository departamentoRepository;
 
     public List<DepartamentoModel> findAll(){
         return departamentoRepository.findAll();
